@@ -11,15 +11,15 @@ import (
 
 func Example() {
 	account := bban.Random("040577", "13439317554524", bban.DoubleMod)
-	fmt.Printf("Generated account: %s\n", account)
+	fmt.Printf("Generate random account with length %d\n", len(account))
 
-	next := bban.Next("040577", account, "13439317554524", bban.DoubleMod)
+	next := bban.Next("040577", "40954426", "13439317554524", bban.DoubleMod)
 	fmt.Printf("Next account: %s\n", next)
 
 	fmt.Printf("Validity passing: %v\n", bban.Validate("040577", next, "13439317554524", bban.DoubleMod))
 
 	// Output:
-	// Generated account: 40954426
+	// Generate random account with length 8
 	// Next account: 40954431
 	// Validity passing: true
 }
