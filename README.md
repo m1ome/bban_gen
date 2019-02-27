@@ -1,5 +1,6 @@
 # BBAN generator
 > Simple BBAN generator & validator
+
 [![Go Report Card](https://goreportcard.com/badge/github.com/m1ome/bban_gen)](https://goreportcard.com/report/github.com/m1ome/bban_gen)
 [![GoDoc](https://godoc.org/github.com/m1ome/bban_gen?status.svg)](https://godoc.org/github.com/m1ome/bban_gen)
 [![Build Status](https://travis-ci.org/m1ome/bban_gen.svg?branch=master)](https://travis-ci.org/m1ome/bban_gen)
